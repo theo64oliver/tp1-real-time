@@ -1,0 +1,244 @@
+ets Jul 29 2019 12:21:46
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:2
+load:0x3fff0030,len:6276
+load:0x40078000,len:15748
+load:0x40080400,len:4
+ho 8 tail 4 room 4
+load:0x40080404,len:3860
+entry 0x4008063c
+[0;32mI (31) boot: ESP-IDF v5.4.1 2nd stage bootloader[0m
+[0;32mI (31) boot: compile time May 23 2025 15:25:31[0m
+[0;32mI (31) boot: Multicore bootloader[0m
+[0;32mI (32) boot: chip revision: v3.1[0m
+[0;32mI (35) boot.esp32: SPI Speed      : 40MHz[0m
+[0;32mI (39) boot.esp32: SPI Mode       : DIO[0m
+[0;32mI (43) boot.esp32: SPI Flash Size : 2MB[0m
+[0;32mI (46) boot: Enabling RNG early entropy source...[0m
+[0;32mI (51) boot: Partition Table:[0m
+[0;32mI (53) boot: ## Label            Usage          Type ST Offset   Length[0m
+[0;32mI (60) boot:  0 nvs              WiFi data        01 02 00009000 00006000[0m
+[0;32mI (66) boot:  1 phy_init         RF data          01 01 0000f000 00001000[0m
+[0;32mI (73) boot:  2 factory          factory app      00 00 00010000 00100000[0m
+[0;32mI (79) boot: End of partition table[0m
+[0;32mI (82) esp_image: segment 0: paddr=00010020 vaddr=3f400020 size=09a2ch ( 39468) map[0m
+[0;32mI (103) esp_image: segment 1: paddr=00019a54 vaddr=3ff80000 size=0001ch (    28) load[0m
+[0;32mI (104) esp_image: segment 2: paddr=00019a78 vaddr=3ffb0000 size=02314h (  8980) load[0m
+[0;32mI (111) esp_image: segment 3: paddr=0001bd94 vaddr=40080000 size=04284h ( 17028) load[0m
+[0;32mI (121) esp_image: segment 4: paddr=00020020 vaddr=400d0020 size=13960h ( 80224) map[0m
+[0;32mI (150) esp_image: segment 5: paddr=00033988 vaddr=40084284 size=089b0h ( 35248) load[0m
+[0;32mI (170) boot: Loaded app from partition at offset 0x10000[0m
+[0;32mI (170) boot: Disabling RNG early entropy source...[0m
+[0;32mI (180) cpu_start: Multicore app[0m
+[0;32mI (189) cpu_start: Pro cpu start user code[0m
+[0;32mI (189) cpu_start: cpu freq: 160000000 Hz[0m
+[0;32mI (189) app_init: Application information:[0m
+[0;32mI (189) app_init: Project name:     real-time-tp1[0m
+[0;32mI (193) app_init: App version:      1[0m
+[0;32mI (197) app_init: Compile time:     May 23 2025 15:25:23[0m
+[0;32mI (202) app_init: ELF file SHA256:  7c9ed40b9...[0m
+[0;32mI (206) app_init: ESP-IDF:          v5.4.1[0m
+[0;32mI (210) efuse_init: Min chip rev:     v0.0[0m
+[0;32mI (214) efuse_init: Max chip rev:     v3.99 [0m
+[0;32mI (218) efuse_init: Chip rev:         v3.1[0m
+[0;32mI (222) heap_init: Initializing. RAM available for dynamic allocation:[0m
+[0;32mI (228) heap_init: At 3FFAE6E0 len 00001920 (6 KiB): DRAM[0m
+[0;32mI (233) heap_init: At 3FFB2BD0 len 0002D430 (181 KiB): DRAM[0m
+[0;32mI (238) heap_init: At 3FFE0440 len 00003AE0 (14 KiB): D/IRAM[0m
+[0;32mI (243) heap_init: At 3FFE4350 len 0001BCB0 (111 KiB): D/IRAM[0m
+[0;32mI (249) heap_init: At 4008CC34 len 000133CC (76 KiB): IRAM[0m
+[0;32mI (256) spi_flash: detected chip: generic[0m
+[0;32mI (258) spi_flash: flash io: dio[0m
+[0;33mW (261) spi_flash: Detected size(4096k) larger than the size in the binary image header(2048k). Using the size in the binary image header.[0m
+[0;32mI (274) main_task: Started on CPU0[0m
+[0;32mI (284) main_task: Calling app_main()[0m
+[0;32mI (284) Blink: Blink off[0m
+[0;32mI (284) main_task: Returned from app_main()[0m
+[0;32mI (1284) Blink: Blink on[0m
+[0;32mI (2284) Blink: Blink off[0m
+[0;32mI (3284) Blink: Blink on[0m
+[0;32mI (4284) Blink: Blink off[0m
+[0;32mI (5284) Blink: Blink on[0m
+[0;32mI (6284) Blink: Blink off[0m
+[0;32mI (7284) Blink: Blink on[0m
+[0;32mI (8284) Blink: Blink off[0m
+[0;32mI (9284) Blink: Blink on[0m
+[0;32mI (10284) Blink: Blink off[0m
+[0;32mI (11284) Blink: Blink on[0m
+[0;32mI (12284) Blink: Blink off[0m
+[0;32mI (13284) Blink: Blink on[0m
+[0;32mI (14284) Blink: Blink off[0m
+[0;32mI (15284) Blink: Blink on[0m
+[0;32mI (16284) Blink: Blink off[0m
+[0;32mI (17284) Blink: Blink on[0m
+[0;32mI (18284) Blink: Blink off[0m
+[0;32mI (19284) Blink: Blink on[0m
+[0;32mI (20284) Blink: Blink off[0m
+[0;32mI (21284) Blink: Blink on[0m
+[0;32mI (22284) Blink: Blink off[0m
+[0;32mI (23284) Blink: Blink on[0m
+[0;32mI (24284) Blink: Blink off[0m
+[0;32mI (25284) Blink: Blink on[0m
+[0;32mI (26284) Blink: Blink off[0m
+[0;32mI (27284) Blink: Blink on[0m
+[0;32mI (28284) Blink: Blink off[0m
+[0;32mI (29284) Blink: Blink on[0m
+[0;32mI (30284) Blink: Blink off[0m
+[0;32mI (31284) Blink: Blink on[0m
+[0;32mI (32284) Blink: Blink off[0m
+[0;32mI (33284) Blink: Blink on[0m
+[0;32mI (34284) Blink: Blink off[0m
+[0;32mI (35284) Blink: Blink on[0m
+[0;32mI (36284) Blink: Blink off[0m
+[0;32mI (37284) Blink: Blink on[0m
+[0;32mI (38284) Blink: Blink off[0m
+[0;32mI (39284) Blink: Blink on[0m
+[0;32mI (40284) Blink: Blink off[0m
+[0;32mI (41284) Blink: Blink on[0m
+[0;32mI (42284) Blink: Blink off[0m
+[0;32mI (43284) Blink: Blink on[0m
+[0;32mI (44284) Blink: Blink off[0m
+[0;32mI (45284) Blink: Blink on[0m
+[0;32mI (46284) Blink: Blink off[0m
+[0;32mI (47284) Blink: Blink on[0m
+[0;32mI (48284) Blink: Blink off[0m
+[0;32mI (49284) Blink: Blink on[0m
+[0;32mI (50284) Blink: Blink off[0m
+[0;32mI (51284) Blink: Blink on[0m
+[0;32mI (52284) Blink: Blink off[0m
+[0;32mI (53284) Blink: Blink on[0m
+[0;32mI (54284) Blink: Blink off[0m
+[0;32mI (55284) Blink: Blink on[0m
+[0;32mI (56284) Blink: Blink off[0m
+[0;32mI (57284) Blink: Blink on[0m
+[0;32mI (58284) Blink: Blink off[0m
+[0;32mI (59284) Blink: Blink on[0m
+[0;32mI (60284) Blink: Blink off[0m
+[0;32mI (61284) Blink: Blink on[0m
+[0;32mI (62284) Blink: Blink off[0m
+[0;32mI (63284) Blink: Blink on[0m
+[0;32mI (64284) Blink: Blink off[0m
+[0;32mI (65284) Blink: Blink on[0m
+[0;32mI (66284) Blink: Blink off[0m
+[0;32mI (67284) Blink: Blink on[0m
+[0;32mI (68284) Blink: Blink off[0m
+[0;32mI (69284) Blink: Blink on[0m
+[0;32mI (70284) Blink: Blink off[0m
+[0;32mI (71284) Blink: Blink on[0m
+[0;32mI (72284) Blink: Blink off[0m
+[0;32mI (73284) Blink: Blink on[0m
+[0;32mI (74284) Blink: Blink off[0m
+[0;32mI (75284) Blink: Blink on[0m
+[0;32mI (76284) Blink: Blink off[0m
+[0;32mI (77284) Blink: Blink on[0m
+[0;32mI (78284) Blink: Blink off[0m
+[0;32mI (79284) Blink: Blink on[0m
+[0;32mI (80284) Blink: Blink off[0m
+[0;32mI (81284) Blink: Blink on[0m
+[0;32mI (82284) Blink: Blink off[0m
+[0;32mI (83284) Blink: Blink on[0m
+[0;32mI (84284) Blink: Blink off[0m
+[0;32mI (85284) Blink: Blink on[0m
+[0;32mI (86284) Blink: Blink off[0m
+[0;32mI (87284) Blink: Blink on[0m
+[0;32mI (88284) Blink: Blink off[0m
+[0;32mI (89284) Blink: Blink on[0m
+[0;32mI (90284) Blink: Blink off[0m
+[0;32mI (91284) Blink: Blink on[0m
+[0;32mI (92284) Blink: Blink off[0m
+[0;32mI (93284) Blink: Blink on[0m
+[0;32mI (94284) Blink: Blink off[0m
+[0;32mI (95284) Blink: Blink on[0m
+[0;32mI (96284) Blink: Blink off[0m
+[0;32mI (97284) Blink: Blink on[0m
+[0;32mI (98284) Blink: Blink off[0m
+[0;32mI (99284) Blink: Blink on[0m
+[0;32mI (100284) Blink: Blink off[0m
+[0;32mI (101284) Blink: Blink on[0m
+[0;32mI (102284) Blink: Blink off[0m
+[0;32mI (103284) Blink: Blink on[0m
+[0;32mI (104284) Blink: Blink off[0m
+[0;32mI (105284) Blink: Blink on[0m
+[0;32mI (106284) Blink: Blink off[0m
+[0;32mI (107284) Blink: Blink on[0m
+[0;32mI (108284) Blink: Blink off[0m
+[0;32mI (109284) Blink: Blink on[0m
+[0;32mI (110284) Blink: Blink off[0m
+[0;32mI (111284) Blink: Blink on[0m
+[0;32mI (112284) Blink: Blink off[0m
+[0;32mI (113284) Blink: Blink on[0m
+[0;32mI (114284) Blink: Blink off[0m
+[0;32mI (115284) Blink: Blink on[0m
+[0;32mI (116284) Blink: Blink off[0m
+[0;32mI (117284) Blink: Blink on[0m
+[0;32mI (118284) Blink: Blink off[0m
+[0;32mI (119284) Blink: Blink on[0m
+[0;32mI (120284) Blink: Blink off[0m
+[0;32mI (121284) Blink: Blink on[0m
+[0;32mI (122284) Blink: Blink off[0m
+[0;32mI (123284) Blink: Blink on[0m
+[0;32mI (124284) Blink: Blink off[0m
+[0;32mI (125284) Blink: Blink on[0m
+[0;32mI (126284) Blink: Blink off[0m
+[0;32mI (127284) Blink: Blink on[0m
+[0;32mI (128284) Blink: Blink off[0m
+[0;32mI (129284) Blink: Blink on[0m
+[0;32mI (130284) Blink: Blink off[0m
+[0;32mI (131284) Blink: Blink on[0m
+[0;32mI (132284) Blink: Blink off[0m
+[0;32mI (133284) Blink: Blink on[0m
+[0;32mI (134284) Blink: Blink off[0m
+[0;32mI (135284) Blink: Blink on[0m
+[0;32mI (136284) Blink: Blink off[0m
+[0;32mI (137284) Blink: Blink on[0m
+[0;32mI (138284) Blink: Blink off[0m
+[0;32mI (139284) Blink: Blink on[0m
+[0;32mI (140284) Blink: Blink off[0m
+[0;32mI (141284) Blink: Blink on[0m
+[0;32mI (142284) Blink: Blink off[0m
+[0;32mI (143284) Blink: Blink on[0m
+[0;32mI (144284) Blink: Blink off[0m
+[0;32mI (145284) Blink: Blink on[0m
+[0;32mI (146284) Blink: Blink off[0m
+[0;32mI (147284) Blink: Blink on[0m
+[0;32mI (148284) Blink: Blink off[0m
+[0;32mI (149284) Blink: Blink on[0m
+[0;32mI (150284) Blink: Blink off[0m
+[0;32mI (151284) Blink: Blink on[0m
+[0;32mI (152284) Blink: Blink off[0m
+[0;32mI (153284) Blink: Blink on[0m
+[0;32mI (154284) Blink: Blink off[0m
+[0;32mI (155284) Blink: Blink on[0m
+[0;32mI (156284) Blink: Blink off[0m
+[0;32mI (157284) Blink: Blink on[0m
+[0;32mI (158284) Blink: Blink off[0m
+[0;32mI (159284) Blink: Blink on[0m
+[0;32mI (160284) Blink: Blink off[0m
+[0;32mI (161284) Blink: Blink on[0m
+[0;32mI (162284) Blink: Blink off[0m
+[0;32mI (163284) Blink: Blink on[0m
+[0;32mI (164284) Blink: Blink off[0m
+[0;32mI (165284) Blink: Blink on[0m
+[0;32mI (166284) Blink: Blink off[0m
+[0;32mI (167284) Blink: Blink on[0m
+[0;32mI (168284) Blink: Blink off[0m
+[0;32mI (169284) Blink: Blink on[0m
+[0;32mI (170284) Blink: Blink off[0m
+[0;32mI (171284) Blink: Blink on[0m
+[0;32mI (172284) Blink: Blink off[0m
+[0;32mI (173284) Blink: Blink on[0m
+[0;32mI (174284) Blink: Blink off[0m
+[0;32mI (175284) Blink: Blink on[0m
+[0;32mI (176284) Blink: Blink off[0m
+[0;32mI (177284) Blink: Blink on[0m
+[0;32mI (178284) Blink: Blink off[0m
+[0;32mI (179284) Blink: Blink on[0m
+[0;32mI (180284) Blink: Blink off[0m
+[0;32mI (181284) Blink: Blink on[0m
+[0;32mI (182284) Blink: Blink off[0m
+[0;32mI (183284) Blink: Blink on[0m
+[0;32mI (184284) Blink: Blink off[0m
+[0;32mI (185284) Blink: Blink on[0m

@@ -1,0 +1,43 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/CMakeFiles/bootloader"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/CMakeFiles/bootloader.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/CMakeFiles/bootloader-complete.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-build.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-configure.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-download.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-install.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-mkdir.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-patch.rule"
+		},
+		{
+			"file" : "/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader-prefix/src/bootloader-stamp/bootloader-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"bootloader"
+		],
+		"name" : "bootloader"
+	}
+}

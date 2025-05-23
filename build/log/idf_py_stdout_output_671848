@@ -1,0 +1,43 @@
+[1/9] Performing build step for 'bootloader'
+[1/1] cd /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader/esp-idf/esptool_py && /home/theo/.espressif/python_env/idf5.4_py3.10_env/bin/python /home/theo/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 bootloader 0x1000 /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/bootloader/bootloader.bin
+Bootloader binary size 0x6580 bytes. 0xa80 bytes (9%) free.
+[2/7] Building C object esp-idf/main/CMakeFiles/__idf_main.dir/chenillard.c.obj
+/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/main/chenillard.c: In function 'chenillard':
+/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/main/chenillard.c:24:17: warning: passing argument 4 of 'xTaskCreate' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   24 |                 &gpio4,
+      |                 ^~~~~~
+In file included from /home/theo/esp/esp-idf/components/freertos/esp_additions/include/freertos/idf_additions.h:20,
+                 from /home/theo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/FreeRTOS.h:1533,
+                 from /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/main/chenillard.c:4:
+/home/theo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:374:42: note: expected 'void * const' but argument is of type 'const int *'
+  374 |                             void * const pvParameters,
+      |                             ~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/main/chenillard.c:31:17: warning: passing argument 4 of 'xTaskCreate' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   31 |                 &gpio3,
+      |                 ^~~~~~
+/home/theo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:374:42: note: expected 'void * const' but argument is of type 'const int *'
+  374 |                             void * const pvParameters,
+      |                             ~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/main/chenillard.c:37:17: warning: passing argument 4 of 'xTaskCreate' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   37 |                 &gpio13,
+      |                 ^~~~~~~
+/home/theo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:374:42: note: expected 'void * const' but argument is of type 'const int *'
+  374 |                             void * const pvParameters,
+      |                             ~~~~~~~~~~~~~^~~~~~~~~~~~
+/home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/main/chenillard.c:44:17: warning: passing argument 4 of 'xTaskCreate' discards 'const' qualifier from pointer target type [-Wdiscarded-qualifiers]
+   44 |                 &gpio12,
+      |                 ^~~~~~~
+/home/theo/esp/esp-idf/components/freertos/FreeRTOS-Kernel/include/freertos/task.h:374:42: note: expected 'void * const' but argument is of type 'const int *'
+  374 |                             void * const pvParameters,
+      |                             ~~~~~~~~~~~~~^~~~~~~~~~~~
+[3/7] Linking C static library esp-idf/main/libmain.a
+[4/7] Generating ld/sections.ld
+[5/7] Linking CXX executable real-time-tp1.elf
+[6/7] Generating binary image from built executable
+esptool.py v4.8.1
+Creating esp32 image...
+Merged 2 ELF sections
+Successfully created esp32 image.
+Generated /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/real-time-tp1.bin
+[7/7] cd /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/esp-idf/esptool_py && /home/theo/.espressif/python_env/idf5.4_py3.10_env/bin/python /home/theo/esp/esp-idf/components/partition_table/check_sizes.py --offset 0x8000 partition --type app /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/partition_table/partition-table.bin /home/theo/Desktop/ING2/S8/RTOS/TPs/TP1_RT/build/real-time-tp1.bin
+real-time-tp1.bin binary size 0x2c3f0 bytes. Smallest app partition is 0x100000 bytes. 0xd3c10 bytes (83%) free.
