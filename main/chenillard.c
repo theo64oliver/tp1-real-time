@@ -8,6 +8,14 @@
 #include <esp_log.h>
 #include <esp_rom_gpio.h>
 
+/**
+ * @brief Task to blink an LED on a specified GPIO pin.
+ *
+ * This task will toggle the specified GPIO pin on and off every second,
+ * logging the state changes to the console.
+ *
+ * @param pvParameters Pointer to the GPIO number to blink.
+ */
 void blink_led(void *pvParameters)
 {
     int* parameters = (int *)pvParameters;

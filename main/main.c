@@ -11,6 +11,11 @@
 #define BLINK_GPIO 4
 #define STACK_SIZE 2048
 
+/**
+ * @brief Main function to create tasks for blinking LEDs on different GPIOs.
+ *        The tasks then blink the LEDs on GPIOs 4, 2, 13, and 12.
+ *        The kernel organizes the tasks in a round-robin fashion when we delay a task.
+*/
 void app_main()
 {
     int gpio4 = 4;
