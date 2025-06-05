@@ -1,4 +1,4 @@
-# tp1-real-time
+# TP1 - RTOS by Antoine Jouy - Théo Oliver
 
 ## Schema general du systeme
 
